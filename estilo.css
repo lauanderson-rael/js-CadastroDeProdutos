@@ -1,6 +1,9 @@
 
 *{
 font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 
 
 }
@@ -9,24 +12,22 @@ font-family: 'Roboto', sans-serif;
     border: 3px solid ;
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
-    justify-content: center;
-    width: 400px;
+    width: 450px;
     height: 70%;
-    padding: 15px;
+    padding: 20px;
+    margin-top: 40px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 .title{
-    color: rgb(143, 8, 163);
     border-radius: 7px;
-
+    margin-bottom: 4px;
 }
 
 
 .form input{
-    padding: 3px;
+    padding: 5px;
     width: 300px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -34,6 +35,7 @@ font-family: 'Roboto', sans-serif;
 
 .form button{
     margin-top: 20px;
+    margin-bottom: 20px;
     padding-top: 3px;
     text-align: center;
     border-radius: 5px;
@@ -41,14 +43,38 @@ font-family: 'Roboto', sans-serif;
     color: white;
     width: 100%;
     height: 45px;
+    font-size: 18px;
 
 }
 
-body, html {
-    background-color: rgb(208, 157, 255);
+.form button:hover{
+    color: white;
+    background-color: rgb(117, 13, 133);
+
+
+}
+
+.principal{
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(102, 9, 116);
+}
+
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(116,74,149,1) 35%, rgba(198,3,231,0.5747549019607843) 100%);
+
+
+}
+
+footer{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.749);
+    margin-top: 200px;
 }

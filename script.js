@@ -1,6 +1,6 @@
 const formCadastro = document.getElementById('formCadastro');
 const tabelaProdutos = document.getElementById('tabelaProdutos');
-formCadastro.addEventListener('submit', function(event) {
+formCadastro.addEventListener('submit', (event) => {
     event.preventDefault();
 
     const nome = document.getElementById('nome').value;
